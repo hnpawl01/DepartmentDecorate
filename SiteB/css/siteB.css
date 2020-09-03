@@ -1,1 +1,105 @@
+/*Background color*/
+body{
+    background-color: bisque;
+}
+body#StudioArt{background-color: sandybrown;}
+body#Economics{background-color: blanchedalmond;}
+body#Politics{background-color: lightyellow;}
+body#ComputerScience{background-color: burlywood;}
+body#Mathematics{background-color: rosybrown;}
+
+/*Picture*/
+body#landing{
+    background-image: url("download-300x169.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+/*words and font*/
+body#StudioArt{
+    font-family: monospace;
+    font-size: 14px;
+}
+body#Economics{
+    font-family: serif;
+    font-size: 14px;
+}
+body#Politics{
+    font-family: cursive;
+    font-size: 14px;
+}
+body#ComputerScience{
+    font-family: sans-serif;
+    font-size: 14px;
+}
+body#Mathematics{
+    font-family: fantasy;
+    font-size: 14px;
+}
+/*tables*/
+#StudioArt table{
+    width: 50%;
+}
+#StudioArt th{
+    
+        padding: inherit;
+        border: 9px solid purple;
+    text-transform: uppercase;
+    }
+#StudioArt td{
+    
+        padding: inherit;
+        border: 9px solid purple;
+    text-transform: none;
+    }
+#Economics th{
+    
+        padding: inherit;
+        border: 2px solid gold;
+    text-transform: lowercase;
+    }
+#Economics td{
+    
+        padding: inherit;
+        border: 2px solid gold;
+    text-transform: uppercase;
+    }
+#Politics th{
+    
+        padding:inherit;
+        border: 7px solid blue;
+    text-transform: none;
+    }
+#Politics td{
+    
+        padding:inherit;
+        border: 7px solid blue;
+    text-transform: lowercase;
+    }
+#ComputerScience th{
+    
+        padding:inherit;
+        border: 3px solid red;
+    text-transform: none;
+    }
+#ComputerScience td{
+    
+        padding:inherit;
+        border: 3px solid red;
+    text-transform: lowercase;
+    }
+
+#Mathematics th{
+    
+        padding:inherit;
+        border: 5px solid black;
+    text-transform: lowercase;
+    }
+#Mathematics td{
+    
+        padding:inherit;
+        border: 5px solid black;
+    text-transform: none;
+    }
+
+
 

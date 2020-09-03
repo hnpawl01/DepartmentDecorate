@@ -1,1 +1,98 @@
+/*Background color*/
+body{
+    background-color: aliceblue;
+}
+body#StudioArt{background-color: pink;}
+body#Economics{background-color: lightgray;}
+body#Politics{background-color: lightgoldenrodyellow;}
+body#ComputerScience{background-color: lightcoral;}
+body#Mathematics{background-color: lightcyan;}
+
+/*Picture*/
+body#landing{
+    background-image: url("centre.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/*words and font*/
+body#StudioArt{
+    font-family: cursive;
+    font-size: 24px;
+}
+body#Economics{
+    font-family: sans-serif;
+    font-size: 24px;
+}
+body#Politics{
+    font-family: monospace;
+    font-size: 24px;
+}
+body#ComputerScience{
+    font-family: fantasy;
+    font-size: 24px;
+}
+body#Mathematics{
+    font-family: serif;
+    font-size: 24px;
+}
+/*tables*/
+#StudioArt table{
+    width: 50%;
+}
+#StudioArt th, td{
+    
+        padding:inherit;
+        border: 8px solid black;
+    text-transform: uppercase;
+    }
+#Economics th{
+    
+        padding: inherit;
+        border: 3px solid red;
+    text-transform: uppercase;
+    }
+#Economics td{
+    
+        padding: inherit;
+        border: 5px solid red;
+    text-transform: none;
+    }
+#Politics th{
+    
+        padding:inherit;
+        border: 4px solid purple;
+    text-transform: uppercase;
+    }
+#Politics td{
+    
+        padding:inherit;
+        border: 4px solid purple;
+    text-transform: lowercase;
+    }
+#ComputerScience th{
+    
+        padding:inherit;
+        border: 6px solid gold;
+    text-transform: uppercase;
+    }
+#ComputerScience td{
+    
+        padding:inherit;
+        border: 6px solid gold;
+    text-transform: none;
+    }
+
+#Mathematics th{
+    
+        padding:inherit;
+        border: 3px solid blue;
+    text-transform: uppercase;
+    }
+#Mathematics td{
+    
+        padding:inherit;
+        border: 3px solid blue;
+    text-transform: lowercase;
+    }
+
 
